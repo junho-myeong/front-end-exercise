@@ -1,0 +1,34 @@
+/* COMMON */
+body {
+  color: #333;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  /* sans-serif는 고딕체를 말한다, 글자는 상속되는 속성을 이용해서 body부분에 넣어 둔다 */
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+img {
+  display: block;
+}
+
+/* HEADER */
+header {
+  background-color: royalblue;
+}
+
+header .inner {
+  background-color: orange;
+  width: 1100px;
+  height: 120px;
+  margin: 0 auto;
+  position: relative;
+}
+
+header .logo {
+  height: 75px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+}
