@@ -32,6 +32,8 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
   <!-- 내 스타일을 적용하기 위해 연결하는 코드 -->
   <link rel="stylesheet" href="./css/main.css">
+  <!-- 내 javascript 코드 연결하는 코드 -->
+  <script src="./JS/main.js" defer></script>
 </head>
 <body>
 
@@ -42,6 +44,27 @@
       <a href="./index.html" class="logo"> <!-- a태그는 inline 요소이다.-->
         <img src="./images/starbucks_logo.png" alt="logo"> <!--img 는 inline요소이다, inline요소는 글자를 취급하는 개념이여서 baseline이 존재해서 밑에 공간이 잇게 보인다.-->
       </a>
+
+      <div class="sub-menu">
+        <ul class="menu">
+          <li>
+            <a href="/signin">Sign In</a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">My Starbucks</a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">Customer Service & Ideas</a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">Find a Stroe</a>
+          </li>
+        </ul>
+        <div class="search">
+          <input type="text">
+          <span class="material-icons">search</span>
+        </div>
+      </div>
 
     </div>
   </header>
